@@ -1,0 +1,36 @@
+.container {
+    background-image: url('../../../assets/images/main-picture.png');
+    height: 926px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 428px;
+    @media (min-width: 640px) {
+        width: 640px;
+        background-image: url('../../../assets/images/main-picture-middle.png');
+        background-position: center;
+    }
+    @media (min-width: 1200px) {
+        width: 1440px;
+        background-image: url('../../../assets/images/main-picture-big.png');
+      }
+}
+.title {
+    font-family: "Lato", sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 105px;
+    color: white;
+    margin: 0;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    @media (min-width: 1200px) {
+        font-size: 160px;
+        line-height: 240px;
+        width: 1440px;
+        height: 240px;
+    }
+}
