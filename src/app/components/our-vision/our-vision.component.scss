@@ -1,0 +1,75 @@
+.title-container {
+    margin: 0 auto;
+    width: 288px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @media (min-width: 640px) {
+        width: 434px;
+    }
+}
+.header-1 {
+    width: 288px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: -5%;
+    color: #1E1E1E;
+    margin: 0;
+    @media (min-width: 640px) {
+        width: 434px;
+        font-size: 56px;
+        line-height: 75px;
+    }
+}
+.header-2 {
+    width: 288px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: -5%;
+    color: #A59F9F;
+    margin: 0;
+    @media (min-width: 640px) {
+        width: 434px;
+        font-size: 56px;
+        line-height: 75px;
+    }
+}
+.image-container {
+    margin: 0 auto;
+    height: 490px;
+    width: 355px;
+    background-image: url('../../../assets/images/our-vision-image.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    padding: 0 35px;
+}
+.header-3 {
+    color: #FFFFFFE6;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: -5%;
+   
+}
+.paragraph {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+    letter-spacing: -5%;
+    margin: 0;
+}
