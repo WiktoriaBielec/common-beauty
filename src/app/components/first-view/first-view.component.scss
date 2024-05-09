@@ -1,18 +1,16 @@
 .container {
     background-image: url('../../../assets/images/main-picture.png');
+    background-position: center;
     height: 926px;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 428px;
     @media (min-width: 640px) {
-        width: 640px;
         background-image: url('../../../assets/images/main-picture-middle.png');
         background-position: center;
     }
     @media (min-width: 1200px) {
-        width: 1440px;
         background-image: url('../../../assets/images/main-picture-big.png');
       }
 }
