@@ -52,6 +52,15 @@
     justify-content: space-between;
     text-align: right;
     padding: 0 35px;
+    @media (min-width: 640px) {
+        background-image: url('../../../assets/images/our-vision-big-image.png');
+        width: auto;
+        padding: 75px;
+        justify-content: end;
+    }
+    @media (min-width: 1200px) {
+        max-width: 1290px;
+    }
 }
 .header-3 {
     color: #FFFFFFE6;
@@ -61,7 +70,11 @@
     font-size: 32px;
     line-height: 41px;
     letter-spacing: -5%;
-   
+    @media (min-width: 640px) {
+        font-size: 56px;
+        line-height: 75px;
+        margin: 0;
+    }
 }
 .paragraph {
     color: #fff;
@@ -72,4 +85,8 @@
     line-height: 41px;
     letter-spacing: -5%;
     margin: 0;
+    @media (min-width: 640px) {
+        font-size: 52px;
+        line-height: 75px;
+    }
 }
