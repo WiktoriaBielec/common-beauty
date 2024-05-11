@@ -1,7 +1,10 @@
 <div class="direction-container">
     <div class="container">
         <div class="content-container">
-            <app-header-1 [text]="firstHeader"></app-header-1>
+            <app-header-1 
+              [text]="firstHeader"
+              class="header"
+            ></app-header-1>
             <app-paragraph [text]="firstParagraph"></app-paragraph>
             <app-grey-button 
                 [btnText]="firstBtn"
@@ -13,7 +16,10 @@
 </div>
 <div class="direction-container reversing-container">
     <div class="container">
-        <app-header-1 [text]="secondHeader"></app-header-1>
+        <app-header-1 
+            [text]="secondHeader"
+            class="header"
+        ></app-header-1>
         <app-paragraph [text]="secondParagraph"></app-paragraph>
         <app-grey-button 
             [btnText]="secondBtn"
