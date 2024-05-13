@@ -43,16 +43,9 @@
     }
 }
 .paragraph {
-    width: 288px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    margin: 0;
+    width: 288px;  
     @media (min-width: 640px) {
         width: 434px;
-        font-size: 24px;
-        line-height: 29px;
     }
 }
 .button {
