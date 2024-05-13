@@ -1,0 +1,25 @@
+.fake-container {
+    width: 304px;
+    height: 448px;
+}
+.image-container {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    max-height: 100%;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image {
+    width: inherit;
+    height: fit-content;
+}
+.text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product-name {
+    text-transform: uppercase;
+}

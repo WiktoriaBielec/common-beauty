@@ -6,13 +6,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 58px;
     @media (min-width: 640px) {
         background-image: url('../../../assets/images/main-picture-middle.png');
         background-position: center;
     }
     @media (min-width: 1200px) {
         background-image: url('../../../assets/images/main-picture-big.png');
-      }
+        gap: 28px;
+    }
+}
+.empty-box {
+    height: 55px;
 }
 .title {
     font-family: "Lato", sans-serif;
